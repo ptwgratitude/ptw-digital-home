@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PTW Connect | Paulus Tri Wahyudi</title>
+
+  <meta name="description" content="Connect with Paulus Tri Wahyudi, Human Development Architect, and explore Gratitude Indonesia.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --forest: #173D32;
+      --forest-light: #285747;
+      --cream: #F7F3E9;
+      --gold: #C6A45C;
+      --text: #26352E;
+      --muted: #68756E;
+      --white: #FFFFFF;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .connect-page {
+      width: 100%;
+      max-width: 760px;
+      margin: auto;
+      padding: 55px 22px 35px;
+    }
+
+    .connect-hero {
+      text-align: center;
+      padding: 45px 25px;
+      background: var(--forest);
+      color: var(--cream);
+      border-radius: 12px;
+    }
+
+    .connect-monogram {
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      font-size: 27px;
+    }
+
+    .connect-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(34px, 7vw, 48px);
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+
+    .connect-subtitle {
+      color: var(--gold);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 17px;
+    }
+
+    .connect-identity {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .connect-description {
+      max-width: 470px;
+      margin: 0 auto;
+      color: #E1E8E1;
+      font-size: 13px;
+    }
+
+    .connect-tagline {
+      margin-top: 22px;
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .connect-section {
+      margin-top: 38px;
+    }
+
+    .connect-label {
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+
+    .connect-section h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--forest);
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+
+    .connect-section > p {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+
+    .connect-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .connect-link {
+      display: block;
+      padding: 15px 17px;
+      background: var(--white);
+      border: 1px solid #E5E1D7;
+      border-radius: 7px;
+      text-decoration: none;
+      color: var(--forest);
+      transition: 0.25s ease;
+    }
+
+    .connect-link:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    .connect-link strong {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+
+    .connect-link span {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .connect-link.primary {
+      background: var(--forest);
+      border-color: var(--forest);
+      color: var(--cream);
+    }
+
+    .connect-link.primary span {
+      color: #E1E8E1;
+    }
+
+    .connect-footer {
+      margin-top: 45px;
+      padding: 25px 10px;
+      border-top: 1px solid #DED9CD;
+      text-align: center;
+    }
+
+    .connect-footer strong {
+      display: block;
+      color: var(--forest);
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .connect-footer p {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .connect-back {
+      display: inline-block;
+      margin-top: 15px;
+      color: var(--forest);
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    @media (max-width: 520px) {
+      .connect-page {
+        padding: 22px 15px;
+      }
+
+      .connect-hero {
+        padding: 38px 18px;
+      }
+
+      .connect-links {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="connect-page">
+
+    <header class="connect-hero">
+      <div class="connect-monogram">PTW</div>
+
+      <h1>PTW CONNECT</h1>
+      <div class="connect-subtitle">YOUR GATEWAY TO GROWTH</div>
+
+      <p class="connect-identity">Paulus Tri Wahyudi</p>
+      <p class="connect-identity"><strong>Human Development Architect</strong></p>
+
+      <p class="connect-description">
+        Understanding People. Designing Growth.
+        Enabling Meaningful Contribution.
+      </p>
+
+      <div class="connect-tagline">
+        BERSYUKUR • BERTUMBUH • BERDAMPAK
+      </div>
+    </header>
+
+    <section class="connect-section">
+      <div class="connect-label">01 — PERSONAL CONNECTION</div>
+      <h2>Connect with PTW</h2>
+      <p>Untuk percakapan, konsultasi, undangan, dan kolaborasi profesional.</p>
+
+      <div class="connect-links">
+        <a class="connect-link primary"
+           href="https://wa.me/6289638962843"
+           target="_blank" rel="noopener noreferrer">
+          <strong>WhatsApp PTW ↗</strong>
+          <span>Hubungi secara langsung</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://www.linkedin.com/in/paulus-tri-wahyudi-9019326a/"
+           target="_blank" rel="noopener noreferrer">
+          <strong>LinkedIn ↗</strong>
+          <span>Professional profile</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://www.facebook.com/Paulustriwahyudi"
+           target="_blank" rel="noopener noreferrer">
+          <strong>Facebook — Tri Wahyudi Paulus ↗</strong>
+          <span>Personal connection</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://www.facebook.com/paulus.triwahyudi.3"
+           target="_blank" rel="noopener noreferrer">
+          <strong>Facebook — Paulus Tri Wahyudi ↗</strong>
+          <span>Personal connection</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="connect-section">
+      <div class="connect-label">02 — GRATITUDE ECOSYSTEM</div>
+      <h2>Gratitude Indonesia</h2>
+      <p>Ekosistem pembelajaran, pendampingan, komunitas, dan kolaborasi.</p>
+
+      <div class="connect-links">
+        <a class="connect-link primary"
+           href="https://www.facebook.com/profile.php?id=61588974992456"
+           target="_blank" rel="noopener noreferrer">
+          <strong>Gratitude Indonesia ↗</strong>
+          <span>Explore the ecosystem</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://www.youtube.com/@ptwmedia8630"
+           target="_blank" rel="noopener noreferrer">
+          <strong>YouTube — PTW Media ↗</strong>
+          <span>Videos, ideas & learning</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://www.tiktok.com/@ptwmedia"
+           target="_blank" rel="noopener noreferrer">
+          <strong>TikTok — PTW Media ↗</strong>
+          <span>Short insights & content</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://paulustriwahyudi.blogspot.com/"
+           target="_blank" rel="noopener noreferrer">
+          <strong>PTW Blog ↗</strong>
+          <span>Articles & reflections</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="connect-section">
+      <div class="connect-label">03 — EXPLORE & COLLABORATE</div>
+      <h2>Let's Grow Together</h2>
+      <p>
+        Terbuka untuk percakapan dan kerja sama dalam pengembangan
+        individu, keluarga, komunitas, dan organisasi.
+      </p>
+
+      <div class="connect-links">
+        <a class="connect-link primary"
+           href="https://ptwgratitude.github.io/ptw-digital-home/"
+           target="_blank" rel="noopener noreferrer">
+          <strong>PTW Digital Home ↗</strong>
+          <span>Explore my profile & work</span>
+        </a>
+
+        <a class="connect-link"
+           href="https://wa.me/6289638962843"
+           target="_blank" rel="noopener noreferrer">
+          <strong>Start a Conversation ↗</strong>
+          <span>Connect through WhatsApp</span>
+        </a>
+      </div>
+    </section>
+
+    <footer class="connect-footer">
+      <strong>Paulus Tri Wahyudi</strong>
+      <p>Human Development Architect</p>
+      <p>Understanding People. Designing Growth.</p>
+      <p style="margin-top: 15px;">© 2026 PTW Connect</p>
+
+      <a class="connect-back"
+         href="https://ptwgratitude.github.io/ptw-digital-home/">
+        ← Back to PTW Digital Home
+      </a>
+    </footer>
+
+  </main>
+</body>
+</html>
